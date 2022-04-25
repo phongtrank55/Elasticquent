@@ -1,4 +1,4 @@
-# Elasticquent
+# Elasticquent FOR ES 7.1
 
 _Elasticsearch for Eloquent Laravel Models_
 
