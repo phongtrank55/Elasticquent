@@ -73,7 +73,7 @@ Before you start using Elasticquent, make sure you've installed [Elasticsearch](
 
 To get started, add Elasticquent to you composer.json file:
 
-    "elasticquent/elasticquent": "dev-master"
+    "buiphong/elasticquent": "dev-master"
 
 Once you've run a `composer update`, you need to register Laravel service provider, in your `config/app.php`:
 
@@ -135,16 +135,6 @@ return array(
         'retries'   => 1,
     ],
 
-    /*
-    |--------------------------------------------------------------------------
-    | Default Index Name
-    |--------------------------------------------------------------------------
-    |
-    | This is the index name that Elastiquent will use for all
-    | Elastiquent models.
-    */
-
-    'default_index' => 'my_custom_index_name',
 
 );
 
